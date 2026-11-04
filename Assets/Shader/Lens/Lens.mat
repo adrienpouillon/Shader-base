@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Y
+  m_Name: Lens
   m_Shader: {fileID: -6465566751694194690, guid: ce9870f1fb78c2b43b698fe4870e1317, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Texture2D:
-        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -42,14 +42,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Power: 0.75
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _NoiseScale_After: {r: 1, g: 1, b: 0, a: 0}
-    - _ScaleNoiseX_Before: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _ScaleNoiseY_Before: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _ScaleTime: {r: 1, g: 1, b: 0, a: 0}
-    - _XYTilling: {r: 1, g: 1, b: 0, a: 0}
+    - _DistorsionLens: {r: -0.1, g: 0.1, b: 0, a: 0}
+    - _ReflectLens: {r: 0.25, g: 0.25, b: 0.25, a: 0}
+    - _ScaleLens: {r: 8, g: 8, b: 8, a: 0}
+    - _TilingLens: {r: 0.1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2202434810934867055
