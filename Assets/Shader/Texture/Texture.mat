@@ -45,11 +45,15 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
+    - _NoiseScale_After: {r: 1, g: 1, b: 0, a: 0}
     - _ScaleNoise: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _ScaleNoiseX: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _ScaleNoiseX_Before: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _ScaleNoiseY: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _ScaleNoiseY_Before: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _ScaleTime: {r: 1, g: 1, b: 0, a: 0}
     - _XYMove: {r: 1, g: 1, b: 0, a: 0}
+    - _XYTilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1200209468181728039
