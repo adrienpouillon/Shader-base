@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Color
+  m_Name: Noise floor demon
   m_Shader: {fileID: -6465566751694194690, guid: 5979b029b641a1947a28a8634101538b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,13 +42,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _MaskScale: 4
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ScaleNoiseX: 0.01
     - _ScaleNoiseY: 0.01
+    - _TimeSpeed: 1
     m_Colors:
     - _Add: {r: 0, g: 1, b: 0, a: 0}
     - _AddRGB: {r: 0, g: 1, b: 0, a: 0}
+    - _MaskOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _RGBAdd: {r: 0.5, g: 0, b: 0, a: 0}
+    - _tiling_sprite: {r: 10, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5263111317342018476
