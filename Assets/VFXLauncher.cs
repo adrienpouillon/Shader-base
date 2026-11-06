@@ -10,19 +10,20 @@ public class VFXLauncher : MonoBehaviour
     [Serializable] class VFX
     {
         public string _name;
-        //public ParticleSystem _particle;
-        public VFXIDSO _vFXSO;
+        public ParticleSystem _particle;
+        public VFXIDSO _id;
     }
 
-    //[SerializeField] private List<VFX> _vFXlist;
+    [SerializeField] private List<VFX> _vFXlist;
 
-    public void Launch(VFXIDSO vFXSO)
+    public void Launch(VFXIDSO id)
     {
-        if (vFXSO == null)
+        VFX vFX = _vFXlist.FirstOrDefault(i => i._id == id);
+        if (vFX == null)
         {
             return;
         }
-        vFXSO._particle.Play();
+        vFX._particle.Play();
     }
 
     /*public void Launch(string name)
