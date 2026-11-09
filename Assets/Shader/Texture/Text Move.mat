@@ -48,10 +48,14 @@ Material:
     - _NoiseScale_After: {r: 0.1, g: 0, b: 0, a: 0}
     - _ScaleNoise: {r: 0, g: 0, b: 0, a: 0}
     - _ScaleNoiseX: {r: 0, g: 0, b: 0, a: 0}
+    - _ScaleNoiseXY: {r: 5, g: 5, b: 0, a: 0}
     - _ScaleNoiseX_Before: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _ScaleNoiseY: {r: 0, g: 0, b: 0, a: 0}
     - _ScaleNoiseY_Before: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _ScaleTime: {r: -10, g: 0, b: 0, a: 0}
+    - _SeedNoiseX: {r: 21894, g: 2861, b: 0, a: 0}
+    - _SeedNoiseY: {r: 82, g: 1762, b: 0, a: 0}
+    - _TillingXY: {r: 1, g: 1, b: 0, a: 0}
     - _XYMove: {r: 5, g: 5, b: 0, a: 0}
     - _XYTilling: {r: 5, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
